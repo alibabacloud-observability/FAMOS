@@ -1,0 +1,27 @@
+# args
+dataset_cache_dir: './dataset/train-ticket'
+dataset_name: 'train-ticket'
+batch_size: 128
+get_data_list_from_cache: True
+epoch: 50
+seed: 0
+
+
+# model
+word_embedding_size: 1024
+align_size: 64
+metric_feature_size: 37
+num_classes: 13
+
+# result
+result_dir: './result'
+
+
+# training
+lr: 1e-4
+save_rate: 0.9
+
+# dataset
+data_chunk_keys: 'data_chunk_keys'
+chunk: 'chunk'
+download_url: 'https://zenodo.org/records/13120167/files/train-ticket.zip?download=1'
