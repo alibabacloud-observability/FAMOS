@@ -29,11 +29,8 @@ tqdm==4.66.2
 ### Dataset
 Currently, we provide a processed version of the train-ticket dataset, which will be automatically downloaded during the execution of the code. Upon acceptance of our paper, we will make the original content of the two datasets mentioned in the paper publicly available.
 
-publicly available at
+publicly available at [dcm552/FAMOS-dataset](https://modelscope.cn/datasets/dcm552/FAMOS-dataset/)
 
-```text
-dcm552/FAMOS-dataset
-```
 
 ### config
 Our configuration files are located in the ./config directory, and you can modify the contents there to perform experiments with different datasets and parameters.
